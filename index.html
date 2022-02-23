@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste Icarros</title>
+  <link rel="stylesheet" type="text/css" href="styles/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="styles/grid.css"/>
+  <link rel="stylesheet" type="text/css" href="styles/home.css"/>
+
+  <style>
+    .highlighted {
+      font-weight: 700;
+      color: #5f31f6;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <img class="logo" src="img/logo.png" alt="icarros">
+    </div>
+  </header>
+
+  <article class="article container">
+    <h1>Icarros</h1>
+    <p>O lugar para você ficar por dentro de tudo o que acontece no setor automotivo. Desde notícias até venda e compra de veículos, simulação de crédito ou cotação de seguro 100% online: temos tudo pra você!</p>
+  </article>
+
+  <section class="box-model-section">
+    <div class="container">
+      <div class="box-model">
+        <img src="img/fusca.jpg" alt="fusca amarelo na frente de um prédio">
+      </div>
+      <p>
+        <span class="highlighted">Fuscas</span> atualmente possuem valor para colecionadores
+      </p>
+      <p>
+        Veículos vendidos até o momento: 
+        <span id="total-cars" style="color: red; font-weight: 700;"></span>
+      </p>
+    </div>
+  </section>
+
+  <section class="string-to-object-section">
+    <div class="container">
+      <h2>String a ser convertida:</h2>
+      <p id="string-object">{ "name": "Erick Schimdt", "age": 32, "height": 1.78}</p>
+      <h2>Aplicação do resultado:</h2>
+      <p id="string-result"></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+      <p>Eric Dietrich - Teste iCarros</p>
+  </footer>
+  
+</body>
+<script src="script.js"></script>
+
+</html>
